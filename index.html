@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<base href="https://cdn.jsdelivr.net/gh/shxyder/brotato@main/
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, user-scalable=no" />
 <title>Brotato</title>
@@ -75,11 +76,14 @@
 <script>
 (function() {
 	const PARTS = [
-		'brotato.pck.part.00',
-		'brotato.pck.part.01',
-		'brotato.pck.part.02',
+		'brotato.pck.part1',
+		'brotato.pck.part2',
+		'brotato.pck.part3',
+		'brotato.pck.part4',
+		'brotato.pck.part5',
+		'brotato.pck.part6'
 	];
-	const PART_SIZES = [41943040, 41943040, 22089520];
+	const PART_SIZES = [17662600, 17662600, 17662600, 17662600, 17662600, 17662600];
 	const TOTAL_SIZE = PART_SIZES.reduce((a, b) => a + b, 0);
 
 	const bar = document.getElementById('bar');
